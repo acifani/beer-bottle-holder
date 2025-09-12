@@ -3,9 +3,10 @@
     "parameterSets": {
         "75mm": {
             "bottle_diameter": "75",
+            "bottle_spacing": "0",
             "bottles": "3",
             "holder_depth": "80",
-            "holder_height": "20",
+            "holder_height": "18",
             "shell_thickness": "2.3999999999999999"
         },
         "60mm": {

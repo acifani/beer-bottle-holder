@@ -5,7 +5,8 @@ bottles = 3;
 bottle_diameter = 75;
 shell_thickness = 2.4;
 holder_depth = 80;
-holder_height = 25;
+holder_height = 20;
+bottle_spacing = 0;
 
 bottle_radius = bottle_diameter / 2;
 draw_thickness = shell_thickness / 100;
@@ -13,7 +14,7 @@ draw_thickness = shell_thickness / 100;
 for (i = [0:bottles - 1]) {
   linear_extrude(height=holder_depth) {
     offset(r=shell_thickness / 2) {
-      translate([i * (bottle_diameter), 0, 0]) {
+      translate([i * (bottle_diameter + bottle_spacing), 0, 0]) {
         difference() {
           // Build base cylinder + connector between bottles
           union() {
