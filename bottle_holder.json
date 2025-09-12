@@ -1,0 +1,19 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "75mm": {
+            "bottle_diameter": "75",
+            "bottles": "3",
+            "holder_depth": "80",
+            "holder_height": "20",
+            "shell_thickness": "2.4"
+        },
+        "60mm": {
+            "bottle_diameter": "60",
+            "bottles": "4",
+            "holder_depth": "80",
+            "holder_height": "15",
+            "shell_thickness": "2.4"
+        }
+    }
+}
