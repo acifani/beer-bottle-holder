@@ -1,3 +1,6 @@
+$fs = $preview ? 2 : 0.5;
+$fa = 1;
+
 bottles = 3;
 bottle_diameter = 75;
 shell_thickness = 2.4;

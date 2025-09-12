@@ -6,7 +6,7 @@
             "bottles": "3",
             "holder_depth": "80",
             "holder_height": "20",
-            "shell_thickness": "2.4"
+            "shell_thickness": "2.3999999999999999"
         },
         "60mm": {
             "bottle_diameter": "60",
