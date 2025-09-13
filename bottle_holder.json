@@ -1,19 +1,47 @@
 {
     "fileFormatVersion": "1",
     "parameterSets": {
-        "75mm": {
+        "660ml_75mm": {
             "bottle_diameter": "75",
             "bottle_spacing": "0",
             "bottles": "3",
             "holder_depth": "80",
             "holder_height": "18",
-            "shell_thickness": "2.3999999999999999"
+            "shell_thickness": "2.4"
         },
-        "60mm": {
-            "bottle_diameter": "60",
-            "bottles": "4",
+        "500ml_70mm": {
+            "bottle_diameter": "70",
+            "bottles": "3",
             "holder_depth": "80",
-            "holder_height": "15",
+            "holder_height": "20",
+            "shell_thickness": "2.4"
+        },
+        "330ml_61mm": {
+            "bottle_diameter": "61",
+            "bottles": "3",
+            "holder_depth": "80",
+            "holder_height": "16",
+            "shell_thickness": "2.4"
+        },
+        "can_66.1mm": {
+            "bottle_diameter": "66",
+            "bottles": "3",
+            "holder_depth": "80",
+            "holder_height": "18",
+            "shell_thickness": "2.4"
+        },
+        "can_sleek_57.4mm": {
+            "bottle_diameter": "57",
+            "bottles": "3",
+            "holder_depth": "80",
+            "holder_height": "16",
+            "shell_thickness": "2.4"
+        },
+        "can_slim_250ml_53.4mm": {
+            "bottle_diameter": "53",
+            "bottles": "3",
+            "holder_depth": "80",
+            "holder_height": "14",
             "shell_thickness": "2.4"
         }
     }
